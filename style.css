@@ -46,6 +46,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 body {
   font: 400 1rem var(--body-font);
   color: var(--text-color);
@@ -350,9 +351,13 @@ nav.show div.icon-close {
 
 .card {
   padding: 3.625rem 2rem;
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  box-shadow:
+  -28px 27px 37.5px rgba(98, 96, 96, 0.53),
+  10px -19px 80.5px rgb(180, 180, 182),
+  inset 4px -4px 8px rgba(216, 215, 215, 0.53),
+  inset -5px 5px 12px #fff;
   border-bottom: 0.25rem solid var(--base-color);
-  border-radius: 0.25rem 0.25rem 0 0;
+  border-radius: 0.45rem 0.45rem 0 0;
   text-align: center;
 }
 
